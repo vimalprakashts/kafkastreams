@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) {
 		Properties props = new Properties();
 		props.put(StreamsConfig.APPLICATION_ID_CONFIG, "streams-wordcount-processor");
-		props.put(ConsumerConfig.GROUP_ID_CONFIG, "streams-wordcount-processor");
+		//props.put(ConsumerConfig.GROUP_ID_CONFIG, "streams-wordcount-processor");
 		
 		props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "192.168.2.38:45983,192.168.2.112:45635,192.168.2.116:39571");
 		//props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
